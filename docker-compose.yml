@@ -1,0 +1,10 @@
+version: "3"
+services:
+  db:
+    image: postgres:11-alpine
+    environment:
+      POSTGRES_PASSWORD: first
+      POSTGRES_USER: first
+      POSTGRES_DB: first
+    ports:
+      - "5432:5432"
